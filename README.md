@@ -1,5 +1,7 @@
 # Fil rouge : TaskFlow
 
+[![CI](https://github.com/CouillezSteve/taskflow/actions/workflows/ci.yml/badge.svg)](https://github.com/CouillezSteve/taskflow/actions)
+
 > **Quand** : du jour 2 au jour 4 | **Format** : individuel (avec un binôme pour les revues de code)
 > **Objectif** : prendre une application qui « marche sur ma machine » et la rendre **reproductible** (Docker),
 > **vérifiée automatiquement** (intégration continue), **publiée** (ghcr.io) et **déployée** derrière Nginx en HTTPS,
