@@ -30,4 +30,3 @@ jobs:                                  # api et front en parallèle (+ un 3e job
       - run: npm ci                        # installation exacte depuis package-lock.json
       - run: npm run lint && npm run format:check   # ESLint puis Prettier (formatage)
       - run: npm test                      # tests de l'API
-      - run: npm run build                 # compilation (à retirer si pas d'étape de build, ex. JS pur)
